@@ -58,5 +58,7 @@ Holomorph est une pipeline complète qui permet d'extraire les données d'un doc
 ## Usage
 
 1. **Create a Mask**:
+```
    python mask_designer.py
    python run.py
+```
