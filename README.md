@@ -72,6 +72,7 @@ Holomorph est une pipeline complète qui permet d'extraire les données d'un doc
 ```
 
 2. **Train from Predictions (active learning)**:
+
 After running run.py and having a substantially large database of verified predictions in all_predictions.json, you can start training your model on model-labeled and human-verified data instead of handwriting the labels. This allows for better accuracy, better fit of the predictions (less general, more specific to your case) 
 ```
    python create_lmdb_dataset.py
